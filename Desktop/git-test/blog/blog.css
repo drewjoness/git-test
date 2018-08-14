@@ -1,17 +1,32 @@
 .main-text {
   background-color: yellow;
+  margin-top: 60px;
+}
+
+.main-text p {
+  font-weight: bold;
+}
+
+.main-text .important {
+  color: blue;
+  font-weight: inherit;
 }
 
 .other {
   background-color: #008002;
   color: white;
+  margin-top: 240px;
 }
 
+.other p {
+  font-style:italic;
+}
 .about-me {
   font-style: italic;
   font-size: 8px;
   font-family: fantasy;
   background: teal;
+  margin-top: 425px;
 }
 
 .important {
@@ -44,4 +59,26 @@ h1 {
 
 body {
   margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    .column {
+      float: none;
+    }
+    #big-robot {
+      width: 100%;
+    }
+    h1 {
+      float: right;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: teal;
+  }
 }
