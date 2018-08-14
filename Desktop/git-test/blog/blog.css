@@ -1,0 +1,47 @@
+.main-text {
+  background-color: yellow;
+}
+
+.other {
+  background-color: #008002;
+  color: white;
+}
+
+.about-me {
+  font-style: italic;
+  font-size: 8px;
+  font-family: fantasy;
+  background: teal;
+}
+
+.important {
+  font-style: bold;
+  color: gold;
+  font-size: 20px;
+}
+
+.not-important {
+  opacity: 0;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 6px;
+}
+
+h1 {
+  padding-left: 375px;
+}
+
+.robot {
+  float: right;
+  width: 25%;
+  border: red dotted 2px;
+  padding: 6px;
+  padding-top: 100px;
+}
+
+body {
+  margin: 10px;
+}
